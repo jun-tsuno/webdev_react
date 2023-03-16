@@ -2,7 +2,7 @@ import Field from "./components/Field";
 import Button from "./components/Button";
 import { useState, useReducer } from "react";
 import { signUpReducer, initialState } from "./reducers/signUpReducer";
-import { SET_USER, SET_EMAIL_ERR, SET_PASS_ERR } from "../action/action";
+import { SET_USER, SET_EMAIL_ERR, SET_PASS_ERR } from "./action/action";
 import { emailInvalid, passwordInvalid } from "./helpers/validation";
 /**
  *

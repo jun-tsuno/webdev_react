@@ -1,4 +1,4 @@
-import { SET_USER, SET_EMAIL_ERR, SET_PASS_ERR } from "../../action/action";
+import { SET_USER, SET_EMAIL_ERR, SET_PASS_ERR } from "../action/action";
 
 export const initialState = {
 	user: { email: null, password: null },
